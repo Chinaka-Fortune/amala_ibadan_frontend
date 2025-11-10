@@ -1,6 +1,6 @@
 import React from "react";
-import { useEffect, useState } from "react";
-import { NavLink } from "react-router-dom";
+import { useEffect} from "react";
+// import { NavLink } from "react-router-dom";
 import * as bootstrap from "bootstrap/dist/js/bootstrap.bundle.min.js";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCartPlus } from "@fortawesome/free-solid-svg-icons";
@@ -23,6 +23,8 @@ const SubHomeDishes = () => {
     const popoverList = [...popoverTriggerList].map(
       (popoverTriggerEl) => new bootstrap.Popover(popoverTriggerEl)
     );
+
+    console.log(popoverList)
   }, []);
 
   return (

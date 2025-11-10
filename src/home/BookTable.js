@@ -19,7 +19,10 @@ const BookTable = () => {
   const handleyourDateAndTime = (e) =>{ setyourDateAndTime(e.target.value)}
   const handleyourOptions = (e) =>{ setyourOptions(e.target.value)}
   const handleyourMessage = (e) =>{ setyourMessage(e.target.value)}
-  const handleSubmitBtn = (e) =>{ setSubmitBtn(e.preventDefault())}
+  const handleSubmitBtn = (e) =>{
+     setSubmitBtn(e.preventDefault())
+     console.log(submitBtn)
+  }
   const handleNewsLetterChange = (e) =>{ setNewsLetter(e.preventDefault())}
 
   return (

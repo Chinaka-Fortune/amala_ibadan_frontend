@@ -1,5 +1,5 @@
 import React from "react";
-import { useEffect, useState, useRef } from "react";
+import { useState } from "react";
 const ManagerPost = () => {
   const [creatPost, setCreatePost] = useState("");
   const handleCreatePost = (e) => setCreatePost(e.target.value);

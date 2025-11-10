@@ -13,6 +13,9 @@ const Message = () => {
     const popoverList = [...popoverTriggerList].map(
       (popoverTriggerEl) => new bootstrap.Popover(popoverTriggerEl)
     );
+
+    console.log(popoverList)
+    
   }, []);
 
   return (

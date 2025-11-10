@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import NavBar from './navigationFolder/NavBar';
+// import NavBar from './navigationFolder/NavBar';
 import Home from './home/Home';
 import About from './aboutFolder/About';
 import Menu from './menuFolder/Menu';
 import Contact from './contact/Contact';
-import Footer from './navigationFolder/Footer';
+// import Footer from './navigationFolder/Footer';
 import Cart from './cart/Cart';
 import BookTable from './home/BookTable';
 import DashBoard from './dashBoard/DashBoard';
@@ -18,7 +18,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
-      <NavBar/>
+      {/* <NavBar/> */}
         <Routes>
           <Route path='/' Component={Home}/>
           <Route path='/about' Component={About}/>
@@ -33,7 +33,7 @@ function App() {
           <Route path='/events' Component={OurEvents}/>
           <Route path='/service' Component={Service}/>
         </Routes>
-        <Footer />
+        {/* <Footer /> */}
       </BrowserRouter>
     </>
   );

@@ -1,8 +1,8 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCartPlus } from "@fortawesome/free-solid-svg-icons";
-import tapioka from "../images/launch1.webp";
+// import { NavLink } from "react-router-dom";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faCartPlus } from "@fortawesome/free-solid-svg-icons";
+// import tapioka from "../images/launch1.webp";
 
 // SWALLOW
 import amala from "../images/amalaswallow.jpg";
