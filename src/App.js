@@ -27,7 +27,7 @@ function App() {
           <Route path='/cart' Component={Cart}/>
           <Route path='/book_a_table' Component={BookTable}/>
           <Route path='/dashboard' Component={DashBoard}/>
-          <Route path='/manager_dashboard' Component={ManagerDashboard}/>
+          <Route path='/m_dashboard' Component={ManagerDashboard}/>
           <Route path='/sign_up' Component={SignUp}/>
           <Route path='/sign_in' Component={SignIn}/>
           <Route path='/events' Component={OurEvents}/>
