@@ -1,0 +1,54 @@
+
+.landpage{
+    height: 90vh;
+
+}
+
+.phoneSubmenuText2{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 100%;
+    overflow: hidden;
+}
+
+.phoneSubmenuText1{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.CartImg-div img{
+    object-fit: cover;
+    object-position: center;
+}
+
+.newsLetter input:nth-child(1){
+    border-right: none;
+   outline: none;
+   box-shadow: inset 5px 5px 10px #babecc,
+   inset -5px -5px 10px #fff ;
+   width: 70%;
+}
+.newsLetter input:nth-child(2){
+    border-left: none;
+    
+}
+.newsLetter input:hover:nth-child(2){
+    border-left: none;
+    box-shadow: inset 5px 5px 10px yellow,
+   inset -5px -5px 10px #882727 ;
+   color:darkgrey;
+}
+
+.generalColor{
+    box-shadow: inset 5px 5px 10px #babecc,
+   inset -5px -5px 10px #fff ;
+}
+
+@media (min-width:48rem) {
+    .newsLetter input:nth-child(1){
+    width: 50% ;
+}
+}

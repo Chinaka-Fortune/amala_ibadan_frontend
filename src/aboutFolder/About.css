@@ -1,0 +1,47 @@
+.whatDrivesUs{
+    height: 70%;
+    width: 100%;
+}
+
+
+.aboutImgDivs{
+    width: 100%;
+    height: 60vmin;
+}
+
+.aboutImgDivs img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.logoImageResturant{
+    width: 20%;
+}
+
+
+
+@media (max-width:320px) {
+  .logoImageResturantText{
+    font-size: 1.28rem;
+}
+}
+
+@media (min-width:321px) and (max-width:767px) {
+   .logoImageResturantText{
+    font-size: 1.5rem;
+}   
+}
+
+@media (min-width:768px) {
+    .aboutImgDivs{
+    height: 40vmin;
+}
+
+.logoImageResturantText{
+    font-size: 2.5rem;
+} 
+}
+
+
+

@@ -1,0 +1,34 @@
+.form-input-div{
+    height: 90vh;
+}
+
+.inputDiv{
+    position: relative;
+}
+
+.inputDiv input{
+    background-color: transparent;
+    outline: none;
+    transform: all 0.3s ease;
+
+}
+
+.inputDiv input:focus{
+    border-color: #188ccf;
+    box-shadow: 0 0 5px rgba(4,140,207,0.4);
+}
+
+/* .inputDiv label{
+    position: absolute;
+    top: 14px;
+    left: 15px;
+    color: #777;
+    pointer-events: none;
+    background-color: #f5f7fa;
+    transition:all 0.3s ease ;
+}
+
+.inputDiv input:focus +label, .inputDiv input:valid+label{
+    top: -8px;
+    left: 12px;
+} */

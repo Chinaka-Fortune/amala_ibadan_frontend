@@ -1,0 +1,45 @@
+footer{
+    background-color: rgba(0,0,0);
+}
+
+.footerBtn {
+    background-color: #2A2E94;
+}
+.footerBtn:hover {
+    background-color: #171db9;
+}
+
+.footerUl1 li{
+    list-style: none;
+}
+
+.footerLinkText{
+    color: white;
+}
+
+.footerLinkText:hover{
+    color: orange;
+}
+
+.footerNavIcon i{
+    color: white;
+}
+.footerNavIcon:hover{
+    scale: 1.3;
+}
+
+
+.footerNavIcon:nth-child(1) i:hover{
+    color: rgb(6, 39, 226);
+}
+.footerNavIcon:nth-child(2) i:hover{
+    color: green;
+}
+
+.footerNavIcon:nth-child(4) i:hover{
+    color: rgb(196, 118, 29);  
+}
+
+.footerHeadersText{
+    color: orange;
+}

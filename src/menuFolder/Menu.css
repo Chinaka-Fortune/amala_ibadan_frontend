@@ -1,0 +1,28 @@
+.figure{
+width:100% ;
+height:auto ;
+}
+.figure img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+object-position: center;
+aspect-ratio: 4/3;
+}
+
+ .menuHero1{
+    background-image: url('../images/background-2.png');
+    width: 100%;
+    height: 20vh;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: blue;
+    margin: 0 0 3rem 0;
+}
+
+.iconDiv{
+transform: translate(-50%), -50%;
+    right: 0;
+    top: -10%;
+}

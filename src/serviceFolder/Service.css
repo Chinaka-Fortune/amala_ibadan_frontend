@@ -1,0 +1,32 @@
+.superBoulimageDiv img{
+    object-fit: cover;
+    object-position: center;
+    aspect-ratio: 4/3;
+}
+
+.handShakeDiv{
+    width: 80%;
+    height: 64vh;
+}
+
+.handShakeDiv img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.contactUsNowBtn{
+    background-color: orange;
+    transition: .5s linear;
+}
+
+.contactUsNowBtn:hover{
+    background-color:rgba(255, 165, 0,.3) ;
+}
+
+@media (min-width:1200px) {
+    .superBoulimageDiv{
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+}
